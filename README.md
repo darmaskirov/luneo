@@ -1,5 +1,5 @@
 # LUNEO
-Незалежний демонстраційний магазин для портфоліо NULLEXWEB. Next.js App Router, TypeScript, Tailwind CSS, GSAP/ScrollTrigger, Lucide. Український інтерфейс, UAH.
+Незалежний демонстраційний магазин для портфоліо NULLEXWEB. Next.js App Router, TypeScript, Tailwind CSS, GSAP/ScrollTrigger, Lucide. Англійський інтерфейс, UAH.
 
 ## Запуск
 Node.js 20.9+ (рекомендовано 22 LTS).

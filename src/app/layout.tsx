@@ -5,19 +5,22 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://luneo.example",
   ),
-  title: { default: "LUNEO — Мистецтво бути собою", template: "%s · LUNEO" },
+  title: {
+    default: "LUNEO — The art of being yourself",
+    template: "%s · LUNEO",
+  },
   description:
-    "Сумки та аксесуари з характером. Незалежний демонстраційний проєкт NULLEXWEB.",
+    "Bags and accessories with character. An independent demo project by NULLEXWEB.",
   openGraph: {
-    title: "LUNEO — Тиха виразність",
-    description: "Демонстраційна колекція сумок та аксесуарів",
+    title: "LUNEO — Quiet expression",
+    description: "A concept collection of bags and accessories",
     images: ["/images/hero.webp"],
-    locale: "uk_UA",
+    locale: "en_GB",
   },
 };
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="uk">
+    <html lang="en">
       <body>
         <Store>{children}</Store>
       </body>

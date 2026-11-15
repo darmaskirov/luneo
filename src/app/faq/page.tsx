@@ -1,35 +1,35 @@
-export const metadata = { title: "Питання та відповіді" };
+export const metadata = { title: "Frequently asked questions" };
 export default function Page() {
   return (
     <section className="section faq">
-      <p className="eyebrow">ДОПОМОГА</p>
+      <p className="eyebrow">HERE TO HELP</p>
       <h1>
-        Усе, що <i>важливо.</i>
+        Everything that <i>matters.</i>
       </h1>
       {[
         [
-          "Чи можна купити товари?",
-          "Ні. LUNEO — демонстраційний магазин. Реальні платежі, замовлення та доставка не виконуються.",
+          "Can I buy these products?",
+          "No. LUNEO is a demo storefront. No real payments, orders or deliveries are processed.",
         ],
         [
-          "Що відбувається з моїми даними?",
-          "Контактні дані обробляються лише в пам’яті браузера. Вони не надсилаються на сервер або стороннім сервісам. Кошик зберігає лише ідентифікатори товарів та кількість у localStorage.",
+          "What happens to my details?",
+          "Contact details are processed only in browser memory. They are not sent to a server or third-party services. The shopping bag saves only product IDs and quantities in localStorage.",
         ],
         [
-          "Чи зберігається кошик?",
-          "Так, у цьому браузері після перезавантаження. Видаліть товари з кошика, щоб очистити його.",
+          "Is my shopping bag saved?",
+          "Yes, in this browser, including after a reload. Remove the items from your bag to clear it.",
         ],
         [
-          "Звідки фотографії?",
-          "Усі 21 зображення створені генеративним інструментом для вигаданого бренду LUNEO. Це концептуальні зображення, а не фотографії реальних товарів.",
+          "Where does the imagery come from?",
+          "All 21 images were AI-generated for the fictional LUNEO brand. They are concept images rather than photographs of real products.",
         ],
         [
-          "Хто створив проєкт?",
-          "Проєкт підготовлено для портфоліо вебстудії NULLEXWEB (nullexweb.com).",
+          "Who created this project?",
+          "This project was created for the portfolio of NULLEXWEB (nullexweb.com).",
         ],
         [
-          "Як підключити реальне оформлення?",
-          "У коді передбачено інтерфейс OrderService. Для робочого магазину потрібен серверний адаптер CRM, захист даних і платіжна інтеграція.",
+          "How can real checkout be connected?",
+          "The code includes an OrderService interface. A live store requires a server-side CRM adapter, data protection and a payment integration.",
         ],
       ].map(([q, a]) => (
         <details key={q}>

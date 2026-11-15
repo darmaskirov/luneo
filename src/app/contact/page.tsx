@@ -1,18 +1,18 @@
 import { LocalForm } from "@/components/shop";
-export const metadata = { title: "Контакти" };
+export const metadata = { title: "Contact" };
 export default function Page() {
   return (
     <section className="section">
-      <p className="eyebrow">КОНТАКТИ</p>
+      <p className="eyebrow">CONTACT</p>
       <h1>
-        Почнімо з <i>розмови.</i>
+        Let’s start a <i>conversation.</i>
       </h1>
       <div className="checkout">
         <div>
-          <h2>Подобається цей досвід?</h2>
+          <h2>Like what you see?</h2>
           <p>
-            Це портфоліо-проєкт NULLEXWEB. Щоб обговорити справжній сайт для
-            вашого бізнесу, відвідайте вебстудію.
+            This is a NULLEXWEB portfolio project. Visit the studio to discuss a
+            website for your business.
           </p>
           <a
             className="text-link"
@@ -22,9 +22,7 @@ export default function Page() {
           >
             nullexweb.com ↗
           </a>
-          <p>
-            Форма праворуч демонструє взаємодію та не надсилає повідомлення.
-          </p>
+          <p>This form demonstrates the experience. No message will be sent.</p>
         </div>
         <LocalForm />
       </div>

@@ -62,16 +62,14 @@ export function Store({ children }: { children: React.ReactNode }) {
         stagger: 0.13,
         duration: 1,
       });
-      gsap.utils
-        .toArray<HTMLElement>("[data-reveal]")
-        .forEach((el) =>
-          gsap.from(el, {
-            y: 25,
-            opacity: 0,
-            duration: 0.8,
-            scrollTrigger: { trigger: el, start: "top 94%", once: true },
-          }),
-        );
+      gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((el) =>
+        gsap.from(el, {
+          y: 25,
+          opacity: 0,
+          duration: 0.8,
+          scrollTrigger: { trigger: el, start: "top 94%", once: true },
+        }),
+      );
     });
     return () => mm.revert();
   }, [path]);
@@ -117,29 +115,29 @@ export function Store({ children }: { children: React.ReactNode }) {
         open,
       }}
     >
-      <div className="announcement">НЕЗАЛЕЖНИЙ DEMO-ПРОЄКТ · NULLEXWEB</div>
+      <div className="announcement">INDEPENDENT DEMO PROJECT · NULLEXWEB</div>
       <header>
         <button
           className="mobile"
-          aria-label="Меню"
+          aria-label="Menu"
           onClick={() => setMenu(!menu)}
         >
           <Menu />
         </button>
         <nav className={menu ? "shown" : ""}>
           <Link href="/catalog" onClick={() => setMenu(false)}>
-            Колекція
+            Collection
           </Link>
           <Link href="/about" onClick={() => setMenu(false)}>
-            Світ LUNEO
+            The world of LUNEO
           </Link>
         </nav>
         <Link className="logo" href="/">
           LUNEO
         </Link>
         <div className="header-right">
-          <Link href="/contact">Контакти</Link>
-          <button onClick={open} aria-label="Відкрити кошик">
+          <Link href="/contact">Contact</Link>
+          <button onClick={open} aria-label="Open shopping bag">
             <ShoppingBag size={19} />{" "}
             <span>({items.reduce((s, x) => s + x.quantity, 0)})</span>
           </button>
@@ -149,20 +147,19 @@ export function Store({ children }: { children: React.ReactNode }) {
       <footer>
         <div className="footer-top">
           <p className="footer-statement">
-            Менше зайвого.
+            Less distraction.
             <br />
-            <i>Більше вас.</i>
+            <i>More you.</i>
           </p>
           <div>
-            <Link href="/catalog">Колекція</Link>
-            <Link href="/about">Про LUNEO</Link>
-            <Link href="/contact">Контакти</Link>
-            <Link href="/faq">Питання та відповіді</Link>
+            <Link href="/catalog">Collection</Link>
+            <Link href="/about">About LUNEO</Link>
+            <Link href="/contact">Contact</Link>
+            <Link href="/faq">Frequently asked questions</Link>
           </div>
           <p>
-            Вигаданий бренд. Справжня увага до деталей.
-            <br />
-            Демонстраційний магазин — без реальних платежів.
+            A fictional brand. Real attention to detail.
+            <br />A demo storefront — no real payments.
           </p>
         </div>
         <div className="footer-logo">LUNEO</div>
@@ -182,17 +179,17 @@ export function Store({ children }: { children: React.ReactNode }) {
         }}
       >
         <div className="cart-heading">
-          <h2>Ваш кошик</h2>
-          <button onClick={close} aria-label="Закрити кошик">
+          <h2>Your shopping bag</h2>
+          <button onClick={close} aria-label="Close shopping bag">
             <X />
           </button>
         </div>
         {!items.length ? (
           <p>
-            Тут починається ваша колекція.
+            Your collection starts here.
             <br />
             <Link href="/catalog" onClick={close}>
-              Обрати свою сумку ↗
+              Find your bag ↗
             </Link>
           </p>
         ) : (
@@ -209,20 +206,20 @@ export function Store({ children }: { children: React.ReactNode }) {
                     <p>{money(p.price)}</p>
                     <div className="quantity">
                       <button
-                        aria-label="Зменшити кількість"
+                        aria-label="Decrease quantity"
                         onClick={() => setQuantity(p.id, item.quantity - 1)}
                       >
                         <Minus size={14} />
                       </button>
                       {item.quantity}
                       <button
-                        aria-label="Збільшити кількість"
+                        aria-label="Increase quantity"
                         onClick={() => setQuantity(p.id, item.quantity + 1)}
                       >
                         <Plus size={14} />
                       </button>
                       <button onClick={() => setQuantity(p.id, 0)}>
-                        Видалити
+                        Remove
                       </button>
                     </div>
                   </div>
@@ -230,7 +227,7 @@ export function Store({ children }: { children: React.ReactNode }) {
               );
             })}
             <h3 className="total">
-              Разом{" "}
+              Total{" "}
               <span>
                 {money(
                   items.reduce(
@@ -243,9 +240,9 @@ export function Store({ children }: { children: React.ReactNode }) {
               </span>
             </h3>
             <Link className="button" href="/checkout" onClick={close}>
-              Оформити демозамовлення <ArrowUpRight size={18} />
+              Demo checkout <ArrowUpRight size={18} />
             </Link>
-            <small>DEMO MODE · Жодних реальних платежів</small>
+            <small>DEMO MODE · No real payments</small>
           </>
         )}
       </dialog>

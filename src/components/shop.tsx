@@ -31,13 +31,13 @@ export function Card({ p }: { p: (typeof products)[number] }) {
   );
 }
 export function Catalog() {
-  const [category, setCategory] = useState("Усі");
+  const [category, setCategory] = useState("All");
   const [price, setPrice] = useState(10000);
   const [sort, setSort] = useState("default");
   const visible = products
     .filter(
       (p) =>
-        (category === "Усі" || p.category === category) && p.price <= price,
+        (category === "All" || p.category === category) && p.price <= price,
     )
     .sort((a, b) =>
       sort === "asc"
@@ -48,13 +48,13 @@ export function Catalog() {
     );
   return (
     <section className="section">
-      <p className="eyebrow">КОЛЕКЦІЯ / 01</p>
+      <p className="eyebrow">COLLECTION / 01</p>
       <h1>
-        Форма вашого <i>ритму.</i>
+        Made for your <i>rhythm.</i>
       </h1>
       <div className="filters">
         <div className="tabs">
-          {["Усі", ...new Set(products.map((p) => p.category))].map((c) => (
+          {["All", ...new Set(products.map((p) => p.category))].map((c) => (
             <button
               className={category === c ? "active" : ""}
               key={c}
@@ -65,7 +65,7 @@ export function Catalog() {
           ))}
         </div>
         <label>
-          До {money(price)}
+          Up to {money(price)}
           <input
             type="range"
             min="2400"
@@ -76,23 +76,23 @@ export function Catalog() {
           />
         </label>
         <select
-          aria-label="Сортування"
+          aria-label="Sort by"
           value={sort}
           onChange={(e) => setSort(e.target.value)}
         >
-          <option value="default">За замовчуванням</option>
-          <option value="asc">Ціна: за зростанням</option>
-          <option value="desc">Ціна: за спаданням</option>
+          <option value="default">Featured</option>
+          <option value="asc">Price: low to high</option>
+          <option value="desc">Price: high to low</option>
         </select>
       </div>
-      <p className="eyebrow">{visible.length} ПРЕДМЕТІВ</p>
+      <p className="eyebrow">{visible.length} PIECES</p>
       <div className="grid">
         {visible.map((p) => (
           <Card key={p.id} p={p} />
         ))}
       </div>
       {!visible.length && (
-        <p>Нічого не знайдено. Збільште бюджет або змініть категорію.</p>
+        <p>No pieces found. Increase your budget or choose another category.</p>
       )}
     </section>
   );
@@ -122,28 +122,23 @@ export function Product({ id }: { id: string }) {
               `/images/lifestyle-${Math.floor((+id - 1) / 3) + 1}.webp`,
             ].map((src) => (
               <button key={src} onClick={() => setPhoto(src)}>
-                <Image
-                  src={src}
-                  alt="Переглянути фото"
-                  width={90}
-                  height={100}
-                />
+                <Image src={src} alt="View photo" width={90} height={100} />
               </button>
             ))}
           </div>
           <small>
-            Lifestyle — образ колекції; точний колір представлено на предметному
-            фото.
+            Lifestyle photography shows the collection mood; see the product
+            photo for the selected colour.
           </small>
         </div>
         <div className="product-copy">
           <Link className="eyebrow" href="/catalog">
-            КОЛЕКЦІЯ / {chosen.category}
+            COLLECTION / {chosen.category}
           </Link>
           <h1>{chosen.name}</h1>
           <p className="price">{money(chosen.price)}</p>
           <p>{chosen.description}</p>
-          <p>Колір: {chosen.color}</p>
+          <p>Colour: {chosen.color}</p>
           <div className="swatches">
             {products
               .filter((p) => p.name === chosen.name)
@@ -166,7 +161,7 @@ export function Product({ id }: { id: string }) {
               ))}
           </div>
           <label>
-            Кількість{" "}
+            Quantity{" "}
             <input
               className="qty-input"
               type="number"
@@ -182,21 +177,18 @@ export function Product({ id }: { id: string }) {
             className="button"
             onClick={() => cart.add(chosen.id, quantity)}
           >
-            Додати до кошика <Plus size={18} />
+            Add to bag <Plus size={18} />
           </button>
-          <small>DEMO MODE · Покупка не списує кошти</small>
+          <small>DEMO MODE · No payment will be taken</small>
           {[
             [
-              "Деталі та матеріали",
-              "Концепт: фактурна шкіра, текстильна підкладка, металева фурнітура. Усі характеристики демонстраційні.",
+              "Details & materials",
+              "Concept: textured leather, textile lining and metal hardware. All specifications are illustrative.",
             ],
+            ["Care", "Store in a dust bag and clean with a soft, dry cloth."],
             [
-              "Догляд",
-              "Зберігайте у тканинному чохлі, очищуйте м’якою сухою серветкою.",
-            ],
-            [
-              "Доставка та повернення",
-              "У цьому демомагазині доставка та повернення не виконуються.",
+              "Delivery & returns",
+              "Delivery and returns are not available in this demo store.",
             ],
           ].map(([title, text]) => (
             <details key={title}>
@@ -208,7 +200,7 @@ export function Product({ id }: { id: string }) {
       </section>
       <section className="section">
         <h2>
-          У тому ж <i>настрої.</i>
+          In the same <i>mood.</i>
         </h2>
         <div className="grid">
           {products
@@ -235,19 +227,19 @@ export function LocalForm({ newsletter = false }: { newsletter?: boolean }) {
       {newsletter ? (
         <div className="newsletter-field">
           <input
-            aria-label="Електронна пошта"
+            aria-label="Email address"
             type="email"
-            placeholder="Ваша електронна пошта"
+            placeholder="Your email address"
             required
           />
-          <button aria-label="Підписатися">
+          <button aria-label="Subscribe">
             <ArrowUpRight />
           </button>
         </div>
       ) : (
         <>
           <label>
-            Ваше ім’я
+            Your name
             <input required name="name" />
           </label>
           <label>
@@ -255,18 +247,18 @@ export function LocalForm({ newsletter = false }: { newsletter?: boolean }) {
             <input required type="email" />
           </label>
           <label>
-            Повідомлення
+            Message
             <textarea required rows={4} />
           </label>
           <button className="button">
-            Перевірити форму <ArrowUpRight size={18} />
+            Try the form <ArrowUpRight size={18} />
           </button>
         </>
       )}
       <small role="status">
         {done
-          ? "Дякуємо! Демонстрацію завершено. Дані нікуди не надіслані."
-          : "Демо-форма: дані не зберігаються та не надсилаються."}
+          ? "Thank you! Demo complete. No data has been sent."
+          : "Demo form: your details are neither stored nor sent."}
       </small>
     </form>
   );
@@ -281,26 +273,26 @@ export function Checkout() {
       <section className="section confirmation">
         <p className="eyebrow">DEMO MODE</p>
         <h1>
-          Дякуємо за <i>натхнення.</i>
+          Thank you for the <i>inspiration.</i>
         </h1>
-        <p>Демозамовлення {result} успішно сформовано.</p>
+        <p>Demo order {result} has been created successfully.</p>
         <p>
-          Оплата не проводилася. Дані не збережені та не надіслані. Доставки не
-          буде.
+          No payment was taken. Your details were not stored or sent. Nothing
+          will be shipped.
         </p>
         <Link className="button" href="/catalog">
-          Повернутися до колекції ↗
+          Back to the collection ↗
         </Link>
       </section>
     );
   return (
     <section className="section">
-      <p className="eyebrow">DEMO MODE — БЕЗ РЕАЛЬНИХ ПЛАТЕЖІВ І ЗАМОВЛЕНЬ</p>
+      <p className="eyebrow">DEMO MODE — NO REAL PAYMENTS OR ORDERS</p>
       <h1>
-        Останній <i>штрих.</i>
+        The finishing <i>touch.</i>
       </h1>
       {!cart.items.length ? (
-        <Link href="/catalog">Кошик порожній. До колекції ↗</Link>
+        <Link href="/catalog">Your bag is empty. Explore the collection ↗</Link>
       ) : (
         <div className="checkout">
           <form
@@ -326,13 +318,13 @@ export function Checkout() {
               }
             }}
           >
-            <h2>Контактні дані</h2>
+            <h2>Contact details</h2>
             {[
-              ["name", "Ім’я та прізвище", "text"],
-              ["email", "Електронна пошта", "email"],
-              ["phone", "Телефон", "tel"],
-              ["city", "Місто", "text"],
-              ["address", "Адреса доставки", "text"],
+              ["name", "Full name", "text"],
+              ["email", "Email address", "email"],
+              ["phone", "Phone number", "tel"],
+              ["city", "City", "text"],
+              ["address", "Delivery address", "text"],
             ].map(([name, label, type]) => (
               <label key={name}>
                 {label}
@@ -346,17 +338,17 @@ export function Checkout() {
               </label>
             ))}
             <p>
-              Використовуйте вигадані дані. Усе обробляється лише у вашому
-              браузері.
+              Please use fictional details. Everything is processed locally in
+              your browser.
             </p>
             <p role="alert">{error}</p>
             <button disabled={busy} className="button">
-              {busy ? "Обробка…" : "Підтвердити демозамовлення"}{" "}
+              {busy ? "Processing…" : "Confirm demo order"}{" "}
               <ArrowUpRight size={18} />
             </button>
           </form>
           <aside>
-            <h2>Ваш вибір</h2>
+            <h2>Your selection</h2>
             {cart.items.map((x) => {
               const p = products.find((p) => p.id === x.id)!;
               return (
@@ -365,14 +357,14 @@ export function Checkout() {
                   <span>
                     {p.name} · {p.color}
                     <br />
-                    {x.quantity} шт.
+                    {x.quantity} pcs
                   </span>
                   <span>{money(p.price * x.quantity)}</span>
                 </div>
               );
             })}
             <h3 className="total">
-              Разом{" "}
+              Total{" "}
               <span>
                 {money(
                   cart.items.reduce(
@@ -384,8 +376,8 @@ export function Checkout() {
                 )}
               </span>
             </h3>
-            <p>Доставка: не виконується · Оплата: відсутня</p>
-            <button onClick={cart.open}>Редагувати кошик ↗</button>
+            <p>Shipping: not applicable · Payment: none</p>
+            <button onClick={cart.open}>Edit bag ↗</button>
           </aside>
         </div>
       )}

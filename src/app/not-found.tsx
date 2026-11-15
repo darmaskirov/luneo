@@ -3,9 +3,9 @@ export default function NotFound() {
   return (
     <section className="section">
       <p>404</p>
-      <h1>Цю сторінку не знайдено.</h1>
+      <h1>This page could not be found.</h1>
       <Link className="button" href="/catalog">
-        До колекції ↗
+        Explore the collection ↗
       </Link>
     </section>
   );

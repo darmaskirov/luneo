@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero">
         <Image
           src="/images/hero.webp"
-          alt="Бордова сумка Lune на травертиновому п’єдесталі"
+          alt="Burgundy Lune bag on a travertine plinth"
           fill
           priority
           sizes="100vw"
@@ -17,44 +17,44 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">LUNEO / COLLECTION 01</p>
           <h1>
-            Тиха
+            Quiet
             <br />
-            <i>виразність.</i>
+            <i>expression.</i>
           </h1>
           <p>
-            Речі, які не потребують зайвих слів.
+            Some things need no words.
             <br />
-            Лише вашого дотику.
+            Only your touch.
           </p>
           <Link className="button" href="/catalog">
-            Відкрити колекцію <ArrowUpRight size={19} />
+            Discover the collection <ArrowUpRight size={19} />
           </Link>
         </div>
-        <span className="hero-note">СТВОРЕНО ДЛЯ ВАШОГО РИТМУ</span>
+        <span className="hero-note">MADE FOR YOUR EVERYDAY</span>
         <span className="hero-index">01 — 03</span>
       </section>
       <section className="intro section" data-reveal>
-        <p className="eyebrow">НЕПОМІТНО НЕЗАБУТНЯ</p>
+        <p className="eyebrow">QUIETLY UNFORGETTABLE</p>
         <h2>
-          Не просто аксесуар.
+          More than an accessory.
           <br />
-          Ваша особиста <i>інтонація.</i>
+          Your own <i>signature.</i>
         </h2>
         <p>
-          Ми віримо в красу простих ліній, приємних на дотик фактур і речей, до
-          яких хочеться повертатися. Знайомтеся з LUNEO.
+          We believe in simple lines, tactile textures and pieces you return to,
+          again and again. Meet LUNEO.
         </p>
       </section>
       <section className="section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">ОБРАНЕ / ПОЗА ЧАСОМ</p>
+            <p className="eyebrow">THE EDIT / TIMELESS PIECES</p>
             <h2>
-              Ваші нові <i>супутники.</i>
+              Your everyday <i>companions.</i>
             </h2>
           </div>
           <Link href="/catalog">
-            Уся колекція <ArrowUpRight size={17} />
+            View all pieces <ArrowUpRight size={17} />
           </Link>
         </div>
         <div className="grid">
@@ -66,19 +66,19 @@ export default function Home() {
       <section className="campaign">
         <Image
           src="/images/banner-2.webp"
-          alt="Молочна сумка Forma на кам’яній лаві"
+          alt="Ivory Forma tote on a stone bench"
           fill
           sizes="100vw"
         />
         <div data-reveal>
-          <p className="eyebrow">НОВА КОЛЕКЦІЯ</p>
+          <p className="eyebrow">THE NEW COLLECTION</p>
           <h2>
-            Простір
+            Room
             <br />
-            для <i>свого.</i>
+            for <i>you.</i>
           </h2>
           <Link className="button light" href="/catalog">
-            Знайти свою форму ↗
+            Find your form ↗
           </Link>
         </div>
       </section>
@@ -86,30 +86,31 @@ export default function Home() {
         <div className="story-image">
           <Image
             src="/images/editorial-1.webp"
-            alt="Робота з бордовою шкірою — візуальна історія бренду"
+            alt="Working with burgundy leather — a concept brand story"
             fill
             sizes="(max-width:700px) 100vw, 50vw"
           />
         </div>
         <div data-reveal>
-          <p className="eyebrow">ФІЛОСОФІЯ LUNEO</p>
+          <p className="eyebrow">THE LUNEO PHILOSOPHY</p>
           <h2>
-            Характер
-            <br />у кожній <i>деталі.</i>
+            Character
+            <br />
+            in every <i>detail.</i>
           </h2>
           <p>
-            Витонченість народжується там, де форма зустрічається з відчуттям. У
-            вигині ручки. У глибині кольору. У свободі бути собою.
+            Refinement begins where form meets feeling. In the curve of a
+            handle. The depth of a colour. The freedom to be yourself.
           </p>
           <Link className="text-link" href="/about">
-            Познайомитися ближче ↗
+            Our story ↗
           </Link>
         </div>
       </section>
       <section className="section editorial">
         <div className="section-heading">
           <h2>
-            Життя між <i>планами.</i>
+            Life between <i>plans.</i>
           </h2>
           <p className="eyebrow">LUNEO IN THE EVERYDAY</p>
         </div>
@@ -118,7 +119,7 @@ export default function Home() {
             <div key={i}>
               <Image
                 src={`/images/lifestyle-${i}.webp`}
-                alt={`Образ LUNEO ${i}`}
+                alt={`LUNEO look ${i}`}
                 fill
                 sizes="(max-width:600px) 50vw,25vw"
               />
@@ -129,31 +130,27 @@ export default function Home() {
       <section className="campaign accessories-campaign">
         <Image
           src="/images/banner-3.webp"
-          alt="Графітова кросбоді та бордовий гаманець на кам’яних сходах"
+          alt="Graphite crossbody and burgundy wallet on stone steps"
           fill
           sizes="100vw"
         />
         <div>
-          <p className="eyebrow">МАЛЕНЬКІ РЕЧІ / ВЕЛИКИЙ СЕНС</p>
+          <p className="eyebrow">SMALL PIECES / EVERYDAY MEANING</p>
           <h2>
-            Важливе.
+            Essentials.
             <br />
-            <i>Поруч.</i>
+            <i>Always close.</i>
           </h2>
           <Link className="button light" href="/catalog">
-            Знайти свій акцент ↗
+            Find your finishing touch ↗
           </Link>
         </div>
       </section>
       <section className="benefits section">
         {[
-          [Package, "Продумана форма", "Усе важливе — поруч."],
-          [
-            ShieldCheck,
-            "Увага до матеріалів",
-            "Фактури, які хочеться відчувати.",
-          ],
-          [Heart, "Поза швидкими трендами", "Естетика, що залишається з вами."],
+          [Package, "Thoughtful design", "Your essentials, always close."],
+          [ShieldCheck, "A feel for materials", "Textures made to be touched."],
+          [Heart, "Beyond passing trends", "An aesthetic that stays with you."],
         ].map(([Icon, title, text]) => {
           const I = Icon as typeof Heart;
           return (
@@ -166,11 +163,11 @@ export default function Home() {
         })}
       </section>
       <section className="newsletter">
-        <p className="eyebrow">ЛИСТИ ВІД LUNEO</p>
+        <p className="eyebrow">LETTERS FROM LUNEO</p>
         <h2>
-          Залишаймося <i>ближче.</i>
+          Let’s stay <i>close.</i>
         </h2>
-        <p>Нові історії, колекції та трохи натхнення.</p>
+        <p>New stories, collections and a little inspiration.</p>
         <LocalForm newsletter />
       </section>
     </>

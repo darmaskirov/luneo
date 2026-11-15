@@ -11,7 +11,7 @@ export async function generateMetadata({
 }) {
   const { id } = await params;
   const p = products.find((p) => p.id === id);
-  return { title: p ? `${p.name} — ${p.color}` : "Товар не знайдено" };
+  return { title: p ? `${p.name} — ${p.color}` : "Product not found" };
 }
 export default async function Page({
   params,

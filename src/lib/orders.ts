@@ -19,7 +19,7 @@ export const orderService: OrderService = {
       !input.city.trim() ||
       !input.items.length
     )
-      throw new Error("Перевірте дані замовлення");
+      throw new Error("Please check your order details");
     const total = input.items.reduce((sum, item) => {
       const p = products.find((p) => p.id === item.id);
       if (
@@ -28,7 +28,7 @@ export const orderService: OrderService = {
         item.quantity < 1 ||
         item.quantity > 99
       )
-        throw new Error("Некоректний кошик");
+        throw new Error("Invalid shopping bag");
       return sum + p.price * item.quantity;
     }, 0);
     return {

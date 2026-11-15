@@ -1,36 +1,35 @@
 import Image from "next/image";
-export const metadata = { title: "Світ LUNEO" };
+export const metadata = { title: "The world of LUNEO" };
 export default function Page() {
   return (
     <section className="section">
-      <p className="eyebrow">СВІТ LUNEO</p>
+      <p className="eyebrow">THE WORLD OF LUNEO</p>
       <h1>
-        Краса бути <i>собою.</i>
+        The beauty of being <i>yourself.</i>
       </h1>
       <div className="story">
         <div>
           <h2>
-            Тиха впевненість.
+            Quiet confidence.
             <br />
-            Виразна форма.
+            Distinctive form.
           </h2>
           <p>
-            LUNEO — вигаданий преміальний бренд, створений як незалежний
-            демонстраційний проєкт вебстудії NULLEXWEB. Це дослідження сучасного
-            fashion commerce: від першого враження до останнього кроку
-            оформлення.
+            LUNEO is a fictional premium brand, created as an independent demo
+            by NULLEXWEB. It explores contemporary fashion commerce, from the
+            first impression to the final step of checkout.
           </p>
           <p>
-            Наша візуальна мова — природне світло, тактильні матеріали, молочні
-            відтінки та глибокий бордовий. Усі фотографії створені за допомогою
-            генерації зображень. Товари не продаються, виробничі процеси та
-            характеристики є частиною концепції.
+            Our visual language is natural light, tactile materials, ivory tones
+            and deep burgundy. All imagery is AI-generated. Products are not for
+            sale; manufacturing scenes and specifications are part of the
+            concept.
           </p>
         </div>
         <div className="story-image">
           <Image
             src="/images/editorial-2.webp"
-            alt="Матеріали та кольори концепції LUNEO"
+            alt="Materials and colours of the LUNEO concept"
             fill
             sizes="50vw"
           />
@@ -39,7 +38,7 @@ export default function Page() {
       <div className="campaign">
         <Image
           src="/images/banner-3.webp"
-          alt="Аксесуари LUNEO на архітектурних сходах"
+          alt="LUNEO accessories on architectural steps"
           fill
           sizes="100vw"
         />
