@@ -16,7 +16,7 @@ npm start
 ```
 
 ## Vercel
-Імпортуйте цю директорію як окремий Git-репозиторій, preset Next.js, build `npm run build`. Встановіть `NEXT_PUBLIC_SITE_URL` на фактичний HTTPS-домен, щоб Open Graph мав коректні абсолютні URL. Деплой у межах цієї роботи не виконується. Жодних API-ключів не потрібно.
+Імпортуйте цю директорію як окремий Git-репозиторій, preset Next.js, build `npm run build`. Встановіть `NEXT_PUBLIC_SITE_URL` на фактичний HTTPS-домен, щоб Open Graph мав коректні абсолютні URL. Публічна версія розгорнута на Cloudflare Pages Free. Жодних API-ключів не потрібно.
 
 ## DEMO MODE і дані
 Кошик зберігає тільки ID та кількість у localStorage (`luneo-cart`). Оформлення працює локально через `src/lib/orders.ts`; контактні дані не зберігаються і не передаються. Newsletter і контактна форма лише демонструють валідацію та підтвердження. Оплата, доставка та фактичні замовлення відсутні. Використовуйте вигадані персональні дані.
@@ -29,3 +29,15 @@ npm start
 
 ## Доступність
 Семантична розмітка, native dialog із focus trap/Escape, фокус-стилі, підписи полів, reduced-motion. GSAP анімації вимкнені при prefers-reduced-motion. Картки мають стандартні посилання.
+
+
+## Public demo and portfolio
+https://luneo-nullexweb.pages.dev
+
+Production is a Next.js static export (`out/`) on Cloudflare Pages Free. See DEPLOYMENT.md. `npm start` serves the exported site at http://localhost:3020.
+
+Screenshots: portfolio-assets/screenshots/
+Presentations: portfolio-assets/presentations/
+Reel: portfolio-assets/video/luneo-instagram-reel.mp4
+Portfolio copy: portfolio-assets/portfolio-copy.md
+QA reports: portfolio-assets/reports/

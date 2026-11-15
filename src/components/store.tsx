@@ -35,6 +35,8 @@ export function Store({ children }: { children: React.ReactNode }) {
           setItems(
             data.filter(
               (x) =>
+                x &&
+                typeof x === "object" &&
                 products.some((p) => p.id === x.id) &&
                 Number.isInteger(x.quantity) &&
                 x.quantity > 0 &&
@@ -56,12 +58,13 @@ export function Store({ children }: { children: React.ReactNode }) {
     gsap.registerPlugin(ScrollTrigger);
     const mm = gsap.matchMedia();
     mm.add("(prefers-reduced-motion: no-preference)", () => {
-      gsap.from(".hero-copy > *", {
-        y: 35,
-        opacity: 0,
-        stagger: 0.13,
-        duration: 1,
-      });
+      if (document.querySelector(".hero-copy"))
+        gsap.from(".hero-copy > *", {
+          y: 35,
+          opacity: 0,
+          stagger: 0.13,
+          duration: 1,
+        });
       gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((el) =>
         gsap.from(el, {
           y: 25,
@@ -116,15 +119,24 @@ export function Store({ children }: { children: React.ReactNode }) {
       }}
     >
       <div className="announcement">INDEPENDENT DEMO PROJECT · NULLEXWEB</div>
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
       <header>
         <button
           className="mobile"
           aria-label="Menu"
+          aria-expanded={menu}
+          aria-controls="main-navigation"
           onClick={() => setMenu(!menu)}
         >
           <Menu />
         </button>
-        <nav className={menu ? "shown" : ""}>
+        <nav
+          id="main-navigation"
+          aria-label="Main navigation"
+          className={menu ? "shown" : ""}
+        >
           <Link href="/catalog" onClick={() => setMenu(false)}>
             Collection
           </Link>
@@ -143,7 +155,7 @@ export function Store({ children }: { children: React.ReactNode }) {
           </button>
         </div>
       </header>
-      <main>{children}</main>
+      <main id="main-content">{children}</main>
       <footer>
         <div className="footer-top">
           <p className="footer-statement">
@@ -173,13 +185,14 @@ export function Store({ children }: { children: React.ReactNode }) {
       <dialog
         ref={dialog}
         className="cart"
+        aria-labelledby="cart-title"
         onCancel={close}
         onClick={(e) => {
           if (e.target === dialog.current) close();
         }}
       >
         <div className="cart-heading">
-          <h2>Your shopping bag</h2>
+          <h2 id="cart-title">Your shopping bag</h2>
           <button onClick={close} aria-label="Close shopping bag">
             <X />
           </button>

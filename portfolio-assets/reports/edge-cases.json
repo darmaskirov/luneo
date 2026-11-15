@@ -1,0 +1,37 @@
+{
+  "base": "https://luneo-nullexweb.pages.dev",
+  "checks": [
+    {
+      "name": "quantity and subtotal",
+      "passed": true
+    },
+    {
+      "name": "decrease subtotal",
+      "passed": true
+    },
+    {
+      "name": "remove item",
+      "passed": true
+    },
+    {
+      "name": "Escape closes cart",
+      "passed": true
+    },
+    {
+      "name": "empty checkout rejected",
+      "passed": true
+    },
+    {
+      "name": "empty contact rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid newsletter rejected",
+      "passed": true
+    },
+    {
+      "name": "unknown route returns 404",
+      "passed": true
+    }
+  ]
+}

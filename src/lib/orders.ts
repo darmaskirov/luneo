@@ -14,6 +14,7 @@ export const orderService: OrderService = {
   async place(input) {
     if (
       !input.name.trim() ||
+      !/^[+\d\s()-]{7,25}$/.test(input.phone) ||
       !/^\S+@\S+\.\S+$/.test(input.email) ||
       !input.address.trim() ||
       !input.city.trim() ||

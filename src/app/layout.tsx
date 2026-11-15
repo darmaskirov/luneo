@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Store } from "@/components/store";
 export const metadata: Metadata = {
+  icons: { icon: "/favicon.svg" },
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://luneo.example",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://luneo-nullexweb.pages.dev",
   ),
   title: {
     default: "LUNEO — The art of being yourself",

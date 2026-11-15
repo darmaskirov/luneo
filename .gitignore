@@ -4,3 +4,10 @@ node_modules/
 *.tsbuildinfo
 test-results/
 playwright-report/
+
+out/
+.wrangler/
+.env
+.env.*
+portfolio-assets/video/raw/
+portfolio-assets/video/segments/

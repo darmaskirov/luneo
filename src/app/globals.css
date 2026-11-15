@@ -877,6 +877,105 @@ textarea {
   }
 }
 /* Solid editorial captions preserve contrast over detailed campaign photography. */
-.campaign > div {background:#f7f4eeeF;padding:26px 32px;max-width:42%;}
-.campaign h2 {font-size:clamp(48px,5vw,76px);}
-@media(max-width:600px){.campaign>div{padding:20px;max-width:78%;top:8%}.campaign h2{font-size:48px}}
+.campaign > div {
+  background: #f7f4eeef;
+  padding: 26px 32px;
+  max-width: 42%;
+}
+.campaign h2 {
+  font-size: clamp(48px, 5vw, 76px);
+}
+@media (max-width: 600px) {
+  .campaign > div {
+    padding: 20px;
+    max-width: 78%;
+    top: 8%;
+  }
+  .campaign h2 {
+    font-size: 48px;
+  }
+}
+/* Final presentation and accessibility refinements. */
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  transform: translateY(-160%);
+  z-index: 100;
+  background: var(--paper);
+  padding: 12px 20px;
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+small,
+.eyebrow {
+  font-size: 12px;
+}
+.announcement {
+  font-size: 11px;
+}
+.footer-bottom {
+  font-size: 12px;
+}
+.footer-top > p:last-child {
+  font-size: 12px;
+}
+.product small {
+  font-size: 12px;
+}
+.hero-note,
+.hero-index {
+  font-size: 11px;
+}
+.quantity button {
+  min-width: 32px;
+  min-height: 32px;
+}
+.cart-heading button,
+.mobile {
+  min-height: 44px;
+  min-width: 44px;
+}
+.product-info span {
+  white-space: nowrap;
+}
+.hero-copy {
+  max-width: 56%;
+}
+.hero h1 {
+  font-size: clamp(64px, 7.5vw, 112px);
+}
+@media (max-width: 600px) {
+  .hero-copy {
+    max-width: 88%;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero-note,
+  .hero-index {
+    font-size: 10px;
+  }
+  .footer-bottom {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+  .eyebrow {
+    font-size: 11px;
+  }
+  .filters select {
+    font-size: 12px;
+  }
+  .product-info span {
+    font-size: 12px;
+  }
+  .footer-statement {
+    font-size: 27px;
+  }
+  .newsletter h2 {
+    font-size: 35px;
+  }
+}
+.lifestyle-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.lifestyle-grid>div{min-width:0}small{color:#625b53}
+@media(max-width:600px){.lifestyle-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

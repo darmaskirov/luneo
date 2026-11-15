@@ -1,0 +1,1118 @@
+{
+  "base": "http://localhost:3020",
+  "timestamp": "2026-11-15T11:17:55.685Z",
+  "errors": [],
+  "failed": [],
+  "overflows": [],
+  "nonGetRequests": [
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/5/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/9/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/3/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/faq/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/faq/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/faq/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/faq/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/3/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/4/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/3/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/checkout/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/checkout/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/faq/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/about/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/contact/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/1/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/2/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/3/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/product/4/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/",
+      "method": "HEAD"
+    },
+    {
+      "url": "http://localhost:3020/catalog/",
+      "method": "HEAD"
+    }
+  ],
+  "sortPrices": [
+    "2 400 UAH",
+    "2 400 UAH",
+    "2 400 UAH",
+    "5 400 UAH",
+    "5 400 UAH",
+    "5 400 UAH",
+    "6 800 UAH",
+    "6 800 UAH",
+    "6 800 UAH",
+    "8 900 UAH",
+    "8 900 UAH",
+    "8 900 UAH"
+  ],
+  "audits": [
+    {
+      "route": "/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/catalog/",
+        "/product/1/",
+        "/product/5/",
+        "/product/9/",
+        "/catalog/",
+        "/about/",
+        "/catalog/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/catalog/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/product/4/",
+        "/product/5/",
+        "/product/6/",
+        "/product/7/",
+        "/product/8/",
+        "/product/9/",
+        "/product/10/",
+        "/product/11/",
+        "/product/12/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/about/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/contact/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/faq/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/checkout/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/1/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/4/",
+        "/product/5/",
+        "/product/6/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/2/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/4/",
+        "/product/5/",
+        "/product/6/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/3/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/4/",
+        "/product/5/",
+        "/product/6/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/4/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/5/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/6/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/7/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/8/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/9/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/10/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/11/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    },
+    {
+      "route": "/product/12/",
+      "images": [],
+      "links": [
+        "/catalog/",
+        "/about/",
+        "/",
+        "/contact/",
+        "/catalog/",
+        "/product/1/",
+        "/product/2/",
+        "/product/3/",
+        "/catalog/",
+        "/about/",
+        "/contact/",
+        "/faq/",
+        "/catalog/"
+      ],
+      "violations": []
+    }
+  ]
+}
