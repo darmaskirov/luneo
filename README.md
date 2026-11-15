@@ -41,3 +41,5 @@ Presentations: portfolio-assets/presentations/
 Reel: portfolio-assets/video/luneo-instagram-reel.mp4
 Portfolio copy: portfolio-assets/portfolio-copy.md
 QA reports: portfolio-assets/reports/
+
+Latest marketing reel: portfolio-assets/video/luneo-instagram-reel-60fps.mp4 (1080×1920 / 60 FPS / ~28 s). Storyboard and capture details: portfolio-assets/video/REEL-60FPS.md.

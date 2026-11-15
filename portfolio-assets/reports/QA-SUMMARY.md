@@ -33,7 +33,7 @@ This is one lab run, not field Core Web Vitals. Further mobile performance work 
 ## Media
 11 real UI screenshots (1440×900 desktop hero, full homepage, collection, philosophy, catalog, product, bag, checkout, three 390×844 mobile captures).
 4 real-screenshot presentation boards, each 1600×1200.
-Reel: 1080×1920, H.264, 30 FPS, 25.4 seconds, no audio. Real Playwright browser recordings with scroll, hover, colour selection and bag interaction, assembled with fades and a designed end card. Encoded at 30 FPS; browser capture cadence is variable. Raw recordings remain locally in the ignored video/raw directory.
+Reel updated: 1080×1920, H.264, 60 FPS, approximately 28 seconds, no audio. Marketing composition with real website iframes, live scroll, hover, category filter, colour selection, bag, mobile checkout and a NULLEXWEB CTA. Recorded via FFmpeg x11grab at 60 Hz on a fullscreen Xvfb browser display. Static portions naturally repeat frames. Previous 30 FPS edit is preserved locally under ignored video/raw. See video/REEL-60FPS.md.
 
 ## Manual steps
 Publish the supplied copy and media to the desired social/portfolio profiles. Music may be added in Instagram. Direct Upload does not automatically redeploy on Git pushes; run the documented deploy command after future changes. There are no real payment, shipping or CRM services connected, intentionally.
